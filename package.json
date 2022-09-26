@@ -31,5 +31,8 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "rails server -p 8000 -b 0.0.0.0"
   }
 }

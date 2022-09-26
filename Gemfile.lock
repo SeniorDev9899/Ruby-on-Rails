@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/Shopify/bootsnap.git
+  revision: fbb7146ef24d9e64485afda73d65e7110fb0d151
+  specs:
+    bootsnap (1.13.0)
+      msgpack (~> 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,8 +79,6 @@ GEM
     backport (1.1.2)
     benchmark (0.1.1)
     bindex (0.8.1)
-    bootsnap (1.7.5)
-      msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
     capybara (3.35.3)
@@ -138,7 +143,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.0.3)
     minitest (5.14.4)
-    msgpack (1.4.2)
+    msgpack (1.5.6)
     multi_json (1.15.0)
     naught (1.1.0)
     nio4r (2.5.7)
@@ -324,7 +329,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-session_store
-  bootsnap (>= 1.4.4)
+  bootsnap (>= 1.4.4)!
   byebug
   capybara
   faker
@@ -355,7 +360,7 @@ DEPENDENCIES
   webpacker (~> 5.0)
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 3.0.4p208
 
 BUNDLED WITH
-   2.2.17
+   2.3.22
